@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ParametersController {
 
-    private static final String INCORRECT_DATA = "Incorrect data.";
+    private static final String INCORRECT_DATA = "Ошибка! Неверный ввод данных.";
     private static final Double ZERO = 1E-12;
 
     private String[] args;
@@ -18,17 +18,17 @@ public class ParametersController {
 
     private void checkTheNumberOfParameters() {
         try {
-            if (this.args.length != 4) {
+            if (this.args.length != 3) {
                 throw new IllegalArgumentException();
             }
         } catch (IllegalArgumentException argumentEx) {
-            System.out.println(argumentEx.getMessage());
+            System.out.println(INCORRECT_DATA);
         }
     }
 
     public void checkSidesOfATriangle() {
         try {
-            for (int i = 1; i < this.args.length; ++i) {
+            for (int i = 0; i < this.args.length; ++i) {
                 double value = Double.parseDouble(this.args[i]);
                 if (value < ZERO) {
                     throw new Exception(INCORRECT_DATA);
@@ -37,7 +37,7 @@ public class ParametersController {
             }
         } catch (Exception ex) {
             triangleSides.clear();
-            System.out.println(ex.getMessage());
+            System.out.println(INCORRECT_DATA);
         }
     }
 

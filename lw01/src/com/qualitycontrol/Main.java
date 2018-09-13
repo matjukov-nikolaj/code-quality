@@ -7,10 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            PrintStream out = new PrintStream(new FileOutputStream("out.txt"), true, "utf-8");
+            System.setErr(out);
+            System.setOut(out);
             ParametersController parametersController = new ParametersController(args);
-            PrintStream st = new PrintStream(new FileOutputStream(args[0]));
-            System.setErr(st);
-            System.setOut(st);
             parametersController.checkSidesOfATriangle();
             List<Double> sides = parametersController.getTriangleSides();
             if (sides.isEmpty()) {
