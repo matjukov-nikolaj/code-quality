@@ -1,7 +1,6 @@
 package controller;
 
 import org.jsoup.Jsoup;
-import org.jsoup.helper.Validate;
 import org.jsoup.nodes.Attribute;
 import org.jsoup.nodes.Attributes;
 import org.jsoup.nodes.Document;
@@ -47,16 +46,16 @@ public class BrokenLinksController {
 
     public void findBrokenLinks() {
         try {
-            for (String href : this.links) {
+            for (String href: this.links) {
                 URL url = new URL(href);
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 int code = connection.getResponseCode();
                 String message = connection.getResponseMessage();
-                if (!message.equals("OK") || code != 200) {
-                    brokenLinks.put(href, code);
-                } else {
+                if (message.equals("OK") && code == 200) {
                     workingLinks.put(href, code);
+                    continue;
                 }
+                brokenLinks.put(href, code);
             }
         } catch (Exception e) {
             LOG.info(e.getMessage());

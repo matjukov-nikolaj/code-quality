@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -19,27 +20,37 @@ public class Servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 //        super.doPost(request, response);
-        String url = request.getParameter("url");
-        Map<String, Integer> brokenLinks = null;
-        Map<String, Integer> workingLinks = null;
-        if (url != "") {
-            BrokenLinksController linksController = new BrokenLinksController(url);
-            linksController.findAllLinks();
-            linksController.findBrokenLinks();
-            brokenLinks = linksController.getBrokenLinks();
-            workingLinks = linksController.getWorkingLinks();
-            request.setAttribute("brokenLinks", brokenLinks);
-            request.setAttribute("workingLinks", workingLinks);
+        try {
+            long startTime = System.currentTimeMillis();
+            response.setContentType("text/html");
+            String url = request.getParameter("url");
+            if (!url.equals("")) {
+                BrokenLinksController linksController = new BrokenLinksController(url);
+                linksController.findAllLinks();
+                linksController.findBrokenLinks();
+                Map<String, Integer> brokenLinks = linksController.getBrokenLinks();
+                Map<String, Integer> workingLinks = linksController.getWorkingLinks();
+                request.setAttribute("brokenLinks", brokenLinks);
+                request.setAttribute("workingLinks", workingLinks);
+                Long timeInSeconds = (System.currentTimeMillis() - startTime) / 1000L;
+                request.setAttribute("time", timeInSeconds);
+            }
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/display.jsp");
+            dispatcher.forward(request, response);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
-        RequestDispatcher req = request.getRequestDispatcher("index.jsp");
-        req.include(request, response);
     }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html");
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
-        dispatcher.forward(request, response);
+        try {
+            response.setContentType("text/html");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+            dispatcher.forward(request, response);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

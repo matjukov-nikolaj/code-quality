@@ -1,6 +1,0 @@
-
-Ksquid:S1185"(Remove this method to simply inherit it.(þ³‚”ûÿÿÿÿ8Ä™€—Ý,
-Hsquid:S1989"%Add a "try/catch" block for "doPost".(é÷ö¬øÿÿÿÿ8—Ý†—Ý,
-gsquid:UselessImportCheck"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8—Ý†—Ý,
-Ksquid:S1989"(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿ8—Ý†—Ý,
-Hsquid:S1989"%Add a "try/catch" block for "doPost".(é÷ö¬øÿÿÿÿ8—Ý†—Ý,
