@@ -1,7 +1,6 @@
 package controller;
 
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Attribute;
 import org.jsoup.nodes.Attributes;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -67,10 +66,10 @@ public class BrokenLinksController {
         try {
             URL url = new URL(this.instanceUrl);
             if (!this.instanceUrl.matches("[0-9]+")) {
-                this.siteName = url.getHost().substring(0, url.getHost().indexOf("."));
+                this.siteName = url.getHost().substring(0, url.getHost().lastIndexOf("."));
             }
             if (this.instanceUrl.substring(this.instanceUrl.length() - 1).equals("/")) {
-                this.instanceUrl = this.instanceUrl.substring(0, this.instanceUrl.length() - 2);
+                this.instanceUrl = this.instanceUrl.substring(0, this.instanceUrl.length() - 1);
             }
             Document doc = Jsoup.connect(this.instanceUrl).get();
 
