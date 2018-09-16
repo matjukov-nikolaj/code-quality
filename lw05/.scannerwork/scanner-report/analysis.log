@@ -1,0 +1,35 @@
+SonarQube plugins:
+  - SonarPython 1.10.0.2131 (python)
+  - SonarGo 1.1.0.1612 (go)
+  - Svn 1.7.0.1017 (scmsvn)
+  - SonarJS 4.1.0.6085 (javascript)
+  - SonarC# 7.2.0.5463 (csharp)
+  - SonarJava 5.4.0.14284 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - Git 1.4.1.1128 (scmgit)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 1.5.1.1452 (xml)
+  - SonarPHP 2.13.0.3107 (php)
+  - SonarTS 1.7.0.2893 (typescript)
+Global properties:
+  - sonar.core.id=AWSDhETTgjstdnIMdzZ4
+  - sonar.core.startTime=2018-09-16T23:29:01+0300
+Settings for module: qualitycontrol:lw05
+  - sonar.binaries=target/classes
+  - sonar.core.coveragePlugin=jacoco
+  - sonar.host.url=http://localhost:9000
+  - sonar.jacoco.reportPath=target/jacoco.exec
+  - sonar.java.binaries=target/classes
+  - sonar.language=java
+  - sonar.projectBaseDir=D:\code-quality\lw05
+  - sonar.projectKey=qualitycontrol:lw05
+  - sonar.projectName=lw05
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.2.0.1227
+  - sonar.scm.disabled=true
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src/main/
+  - sonar.surefire.reportsPath=target/surefire-reports
+  - sonar.tests=src/test/
+  - sonar.working.directory=D:\code-quality\lw05\.scannerwork

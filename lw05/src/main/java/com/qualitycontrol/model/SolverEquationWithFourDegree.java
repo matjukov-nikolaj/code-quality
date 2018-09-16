@@ -6,5 +6,6 @@ public interface SolverEquationWithFourDegree {
 
      void solveEquation();
      List<Double> getRoots();
+     String getExceptionMessage();
 
 }
