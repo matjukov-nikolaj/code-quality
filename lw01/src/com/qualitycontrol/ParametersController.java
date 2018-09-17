@@ -6,6 +6,7 @@ import java.util.List;
 public class ParametersController {
 
     private static final String INCORRECT_DATA = "Ошибка! Неверный ввод данных.";
+    private static final String HELP = "java -jar lw01.jar <a> <b> <c>";
     private static final Double ZERO = 1E-12;
 
     private String[] args;
@@ -23,6 +24,7 @@ public class ParametersController {
             }
         } catch (IllegalArgumentException argumentEx) {
             System.out.println(INCORRECT_DATA);
+            System.out.println("java -jar lw01.jar <a> <b> <c>");
         }
     }
 
