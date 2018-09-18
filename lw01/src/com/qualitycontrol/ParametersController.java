@@ -24,14 +24,16 @@ public class ParametersController {
             }
         } catch (IllegalArgumentException argumentEx) {
             System.out.println(INCORRECT_DATA);
-            System.out.println("java -jar lw01.jar <a> <b> <c>");
+            System.out.println(HELP);
         }
     }
 
     public void checkSidesOfATriangle() {
         try {
             for (int i = 0; i < this.args.length; ++i) {
-                double value = Double.parseDouble(this.args[i]);
+                String strValue = this.args[i];
+                strValue = strValue.replace(',', '.');
+                double value = Double.parseDouble(strValue);
                 if (value < ZERO) {
                     throw new Exception(INCORRECT_DATA);
                 }

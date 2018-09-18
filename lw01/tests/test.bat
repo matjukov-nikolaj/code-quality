@@ -75,6 +75,14 @@ cd ../tests
 FC "..\target\out.txt" incorrect-number-parameters.txt
 IF ERRORLEVEL 1 GOTO err
 
+
+REM Equilateral triangle
+cd ../target
+java -jar lw01.jar 1.1 1.1 1,1  > out.txt
+cd ../tests
+FC "..\target\out.txt" equilateral.txt
+IF ERRORLEVEL 1 GOTO err
+
 ECHO Program testing succeeded :-)
 
 EXIT
