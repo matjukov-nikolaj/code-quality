@@ -17,15 +17,13 @@ public class Servlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//        super.doPost(request, response);
         try {
             long startTime = System.currentTimeMillis();
             response.setContentType("text/html");
             String url = request.getParameter("url");
             if (!url.equals("")) {
                 BrokenLinksController linksController = new BrokenLinksController(url);
-                linksController.findAllLinks();
-                linksController.findBrokenLinks();
+                linksController.findLinks();
                 Map<String, Integer> brokenLinks = linksController.getBrokenLinks();
                 Map<String, Integer> workingLinks = linksController.getWorkingLinks();
                 request.setAttribute("brokenLinks", brokenLinks);
@@ -33,7 +31,15 @@ public class Servlet extends HttpServlet {
                 Long timeInSeconds = (System.currentTimeMillis() - startTime) / 1000L;
                 request.setAttribute("time", timeInSeconds);
             }
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/display.jsp");
+            forwardDispatcher(request, response, "/display.jsp");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private void forwardDispatcher(HttpServletRequest request, HttpServletResponse response, String template) {
+        try {
+            RequestDispatcher dispatcher = request.getRequestDispatcher(template);
             dispatcher.forward(request, response);
         } catch (Exception e) {
             System.out.println(e.getMessage());

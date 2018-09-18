@@ -38,14 +38,18 @@
     <tr>
         <td width="50%" valign="top">
             <%
-                out.print("<p>Number of working Links: " + workingLinks.size() + "</p>");
-                PrintLinks(workingLinks, out);
+                if (workingLinks.size() != 0) {
+                    out.print("<p>Number of working Links: " + workingLinks.size() + "</p>");
+                    PrintLinks(workingLinks, out);
+                }
             %>
         </td>
         <td width="50%" valign="top">
             <%
-                out.print("<p>Number of broken Links: " + brokenLinks.size() + "</p>");
-                PrintLinks(brokenLinks, out);
+                if (brokenLinks.size() != 0) {
+                    out.print("<p>Number of broken Links: " + brokenLinks.size() + "</p>");
+                    PrintLinks(brokenLinks, out);
+                }
             %>
         </td>
     </tr>
