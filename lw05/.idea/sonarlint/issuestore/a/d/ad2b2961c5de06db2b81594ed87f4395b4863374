@@ -1,8 +1,7 @@
 
 [
-squid:S1061"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8™‡ò¤Ş,
+squid:S106;"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ˆ„ˆŞŞ,
 [
-squid:S106'"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8‰åø¤Ş,
-Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8©Ü¤Ş,
+squid:S106&"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ˆ„ˆŞŞ,
 [
-squid:S106<"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8©Ü¤Ş,
+squid:S1060"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ˆ„ˆŞŞ,

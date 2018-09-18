@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0.14" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0.147" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire1808446262735002109\surefirebooter2853682229599677084.jar C:\Users\MarioSlim\AppData\Local\Temp\surefire1808446262735002109 2018-09-17T08-29-11_962-jvmRun1 surefire2734182939278794901tmp surefire_07192642082443971068tmp"/>
+    <property name="sun.java.command" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire2205588663207310858\surefirebooter7535380590242246576.jar C:\Users\MarioSlim\AppData\Local\Temp\surefire2205588663207310858 2018-09-18T11-40-56_237-jvmRun1 surefire2704123470149219883tmp surefire_08219280157469281558tmp"/>
     <property name="surefire.test.class.path" value="D:\code-quality\lw05\target\test-classes;D:\code-quality\lw05\target\classes;C:\Users\MarioSlim\.m2\repository\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;C:\Users\MarioSlim\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\MarioSlim\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MarioSlim\.m2\repository\org\jsoup\jsoup\1.7.2\jsoup-1.7.2.jar;C:\Users\MarioSlim\.m2\repository\javaee\javaee-api\5\javaee-api-5.jar;C:\Users\MarioSlim\.m2\repository\javax\javaee-web-api\6.0\javaee-web-api-6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\MarioSlim"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire1808446262735002109\surefirebooter2853682229599677084.jar;C:\\Users\\MarioSlim\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.2.201409121644\\org.jacoco.agent-0.7.2.201409121644-runtime.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire2205588663207310858\surefirebooter7535380590242246576.jar;C:\\Users\\MarioSlim\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.2.201409121644\\org.jacoco.agent-0.7.2.201409121644-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -54,7 +54,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\FPC\2.6.4\bin\i386-Win32;C:\FPC\3.0.2\bin\i386-Win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\composer;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.5.3\bin;C:\sonar-scanner-3.2.0.1227\bin;C:\sonarqube-7.2.1\bin\windows-x86-64;C:\mongodb\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\MarioSlim\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\MarioSlim\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\MarioSlim\AppData\Local\Programs\Python\Python36-32\;C:\php;C:\Users\MarioSlim\AppData\Local\Microsoft\WindowsApps;C:\Users\MarioSlim\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\MarioSlim\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\MarioSlim\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Skype\Phone;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\FPC\2.6.4\bin\i386-Win32;C:\FPC\3.0.2\bin\i386-Win32;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\composer;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\apache-maven-3.5.3\bin;C:\sonar-scanner-3.2.0.1227\bin;C:\sonarqube-7.2.1\bin\windows-x86-64;C:\mongodb\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\MarioSlim\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\MarioSlim\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\MarioSlim\AppData\Local\Programs\Python\Python36-32;C:\php;C:\Users\MarioSlim\AppData\Local\Microsoft\WindowsApps;C:\Users\MarioSlim\AppData\Roaming\Composer\vendor\bin;C:\mongodb\bin;C:\Users\MarioSlim\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.171-b11"/>
@@ -62,12 +62,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="get_one_real_root_when_D_is_zero" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0.016"/>
+  <testcase name="get_one_real_root_when_D_is_zero" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0.009"/>
   <testcase name="get_four_real_roots" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0"/>
-  <testcase name="throws_an_exception_when_first_equals_to_zero" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0"/>
-  <testcase name="get_correct_result_when_first_argument_is_one_and_other_arguments_is_zero" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0"/>
+  <testcase name="throws_an_exception_when_first_equals_to_zero" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0.004"/>
+  <testcase name="get_correct_result_when_first_argument_is_one_and_other_arguments_is_zero" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0.001"/>
   <testcase name="throws_an_exception_when_equation_has_no_valid_roots" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0"/>
-  <testcase name="get_correct_result_when_first_argument_is_two_and_other_arguments_is_zero" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0"/>
+  <testcase name="get_correct_result_when_first_argument_is_two_and_other_arguments_is_zero" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0.007"/>
   <testcase name="get_two_real_roots" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0"/>
   <testcase name="get_one_real_root" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0"/>
   <testcase name="get_two_correct_real_roots_when_equation_have_two_real_solutions" classname="com.qualitycontrol.model.SolverEquationWithFourDegreeImplTests" time="0"/>

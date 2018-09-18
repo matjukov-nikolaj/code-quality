@@ -70,8 +70,8 @@
       <file leaf-file-name="SolverEquationWithFourDegreeImplTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImplTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +82,8 @@
       <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,20 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="display.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="display.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/display.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolverEquationWithFourDegreeImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SolverEquationWithFourDegreeImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
+            <state relative-caret-position="-1654">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#377#385#0" expanded="true" />
@@ -158,8 +158,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImplTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/display.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
       </list>
     </option>
   </component>
@@ -225,8 +225,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +291,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
+  <component name="RunManager" selected="JUnit.SolverEquationWithFourDegreeImplTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -740,14 +740,13 @@
       <workItem from="1537117020667" duration="808000" />
       <workItem from="1537118819550" duration="2043000" />
       <workItem from="1537120888881" duration="18905000" />
-      <workItem from="1537162330287" duration="1163000" />
+      <workItem from="1537162330287" duration="1522000" />
+      <workItem from="1537258641900" duration="2001000" />
+      <workItem from="1537277343267" duration="2696000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolverEquationWithFourDegreeImplTests - 2018.09.17 at 01h 11m 50s.xml">
-      <configuration name="SolverEquationWithFourDegreeImplTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolverEquationWithFourDegreeImplTests - 2018.09.17 at 01h 12m 10s.xml">
       <configuration name="SolverEquationWithFourDegreeImplTests" configurationId="JUnit" />
     </history-entry>
@@ -775,9 +774,12 @@
     <history-entry file="SolverEquationWithFourDegreeImplTests - 2018.09.17 at 01h 27m 53s.xml">
       <configuration name="SolverEquationWithFourDegreeImplTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SolverEquationWithFourDegreeImplTests - 2018.09.18 at 17h 50m 38s.xml">
+      <configuration name="SolverEquationWithFourDegreeImplTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45709000" />
+    <option name="totallyTimeSpent" value="50765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -787,14 +789,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32925472" />
       <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.67304623" weight="0.29791668" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="SonarQube" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45300952" />
@@ -805,9 +807,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3157339" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3157339" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.24010417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.24010417" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
@@ -881,12 +883,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/model/SolverEquationWithFourDegreeImplTests.java</url>
           <line>15</line>
           <properties />
@@ -923,13 +919,13 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImpl.java</url>
-          <line>82</line>
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java</url>
+          <line>20</line>
           <properties />
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1149,10 +1145,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/display.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1161,8 +1164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImplTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1171,8 +1174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
+        <state relative-caret-position="-1654">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#377#385#0" expanded="true" />
@@ -1182,13 +1185,6 @@
             <element signature="e#4781#4789#0" expanded="true" />
             <element signature="e#5242#5250#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/display.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
