@@ -21,6 +21,9 @@ public class Servlet extends HttpServlet {
             long startTime = System.currentTimeMillis();
             response.setContentType("text/html");
             String url = request.getParameter("url");
+            if (url == "") {
+                forwardDispatcher(request, response, "/index.jsp");
+            }
             if (!url.equals("")) {
                 BrokenLinksController linksController = new BrokenLinksController(url);
                 linksController.findLinks();
