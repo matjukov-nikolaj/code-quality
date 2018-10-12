@@ -120,7 +120,7 @@ public class ProfilePage {
 
     public boolean isCurriculumTableOpen() {
         try {
-            WebElement webElement = (new WebDriverWait(driver, 10))
+            (new WebDriverWait(driver, 10))
                     .until(ExpectedConditions.visibilityOfElementLocated(By.id(CURRICULUM_TABLE)));
             return true;
         } catch (Exception e) {
@@ -130,7 +130,7 @@ public class ProfilePage {
 
     public boolean isStudySheduleTablesOpen() {
         try {
-            WebElement webElement = (new WebDriverWait(driver, 10))
+            (new WebDriverWait(driver, 10))
                     .until(ExpectedConditions.visibilityOfElementLocated(By.id(STUDY_SHEDULE_TABLE)));
             return true;
         } catch (Exception e) {

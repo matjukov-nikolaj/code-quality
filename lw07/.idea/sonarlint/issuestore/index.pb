@@ -17,3 +17,5 @@ u
 Esrc/test/java/com/codequality/lks/volgatech/pages/LoginPageTests.java,d\4\d408937c30ec5efafed8d6c669569f7289e3ee8d
 w
 Gsrc/test/java/com/codequality/lks/volgatech/pages/ProfilePageTests.java,d\a\da60721d7e72557449adef138697c983ba24fb6d
+r
+Bsrc/main/java/com/codequality/lks/volgatech/utilites/Utilites.java,1\0\10733649ce4e393e663fcf8c1167c0eb828ed99f
