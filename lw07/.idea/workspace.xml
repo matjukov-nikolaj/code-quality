@@ -57,97 +57,20 @@
     <favorites_list name="MyFirstWebProject" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3300521">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LoginPageTests.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/LoginPageTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="58" selection-start-line="58" selection-end-line="60" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ProfilePageTests.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/ProfilePageTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1190">
-                  <caret line="70" selection-start-line="70" selection-end-line="70" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#815#823#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DriverCreator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/DriverCreator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/Constants.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="26" column="50" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/LoginPage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ProfilePage.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/ProfilePage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lw07.iml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lw07.iml">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ProfilePageTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/ProfilePageTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="153" column="57" lean-forward="true" selection-start-line="153" selection-start-column="57" selection-end-line="153" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -192,12 +115,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/utilites/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/DriverCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/LostPasswordPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/LoginPageTests.java" />
         <option value="$PROJECT_DIR$/.idea/.name" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/utilites/Utilites.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/LoginPageTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/Utilites.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/ProfilePageTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/ProfilePage.java" />
       </list>
     </option>
@@ -256,7 +181,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="y" value="132" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -287,30 +212,60 @@
               <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw07" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw07" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
               <item name="lw07" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="volgatech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lw07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="volgatech" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="volgatech" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="volgatech" type="462c0819:PsiDirectoryNode" />
+              <item name="utilites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lw07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lw07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -391,6 +346,52 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ProfilePageTests.can_choose_semester_exam_on_exam_list_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lw07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codequality.lks.volgatech.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.codequality.lks.volgatech.pages" />
+      <option name="MAIN_CLASS_NAME" value="com.codequality.lks.volgatech.pages.ProfilePageTests" />
+      <option name="METHOD_NAME" value="can_choose_semester_exam_on_exam_list_page" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProfilePageTests.can_redirect_to_time_table_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lw07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codequality.lks.volgatech.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.codequality.lks.volgatech.pages" />
+      <option name="MAIN_CLASS_NAME" value="com.codequality.lks.volgatech.pages.ProfilePageTests" />
+      <option name="METHOD_NAME" value="can_redirect_to_time_table_page" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="ProfilePageTests.can_select_day_on_my_timetable_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lw07" />
       <extension name="coverage">
@@ -414,29 +415,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ProfilePageTests.can_watch_my_academic_performance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lw07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codequality.lks.volgatech.pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.codequality.lks.volgatech.pages" />
-      <option name="MAIN_CLASS_NAME" value="com.codequality.lks.volgatech.pages.ProfilePageTests" />
-      <option name="METHOD_NAME" value="can_watch_my_academic_performance" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="ProfilePageTests.can_watch_my_equcation_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lw07" />
       <extension name="coverage">
@@ -450,29 +428,6 @@
       <option name="PACKAGE_NAME" value="com.codequality.lks.volgatech.pages" />
       <option name="MAIN_CLASS_NAME" value="com.codequality.lks.volgatech.pages.ProfilePageTests" />
       <option name="METHOD_NAME" value="can_watch_my_equcation_page" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ProfilePageTests.can_watch_my_grants_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lw07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codequality.lks.volgatech.pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.codequality.lks.volgatech.pages" />
-      <option name="MAIN_CLASS_NAME" value="com.codequality.lks.volgatech.pages.ProfilePageTests" />
-      <option name="METHOD_NAME" value="can_watch_my_grants_page" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -664,19 +619,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 7" />
-      <item itemvalue="JUnit.ProfilePageTests.can_watch_my_academic_performance" />
-      <item itemvalue="JUnit.ProfilePageTests.can_watch_my_grants_page" />
       <item itemvalue="JUnit.ProfilePageTests" />
       <item itemvalue="JUnit.ProfilePageTests.can_watch_my_equcation_page" />
+      <item itemvalue="JUnit.ProfilePageTests.can_redirect_to_time_table_page" />
+      <item itemvalue="JUnit.ProfilePageTests.can_choose_semester_exam_on_exam_list_page" />
       <item itemvalue="JUnit.ProfilePageTests.can_select_day_on_my_timetable_page" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProfilePageTests" />
-        <item itemvalue="JUnit.ProfilePageTests.can_watch_my_equcation_page" />
-        <item itemvalue="JUnit.ProfilePageTests.can_watch_my_academic_performance" />
         <item itemvalue="JUnit.ProfilePageTests.can_select_day_on_my_timetable_page" />
-        <item itemvalue="JUnit.ProfilePageTests.can_watch_my_grants_page" />
+        <item itemvalue="JUnit.ProfilePageTests.can_choose_semester_exam_on_exam_list_page" />
+        <item itemvalue="JUnit.ProfilePageTests.can_watch_my_equcation_page" />
+        <item itemvalue="JUnit.ProfilePageTests.can_redirect_to_time_table_page" />
       </list>
     </recent_temporary>
   </component>
@@ -700,47 +655,47 @@
       <workItem from="1539281149288" duration="1046000" />
       <workItem from="1539326906269" duration="593000" />
       <workItem from="1539347449568" duration="44000" />
-      <workItem from="1539347506453" duration="13651000" />
+      <workItem from="1539347506453" duration="17527000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 19h 16m 53s.xml">
+    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 22h 08m 49s.xml">
       <configuration name="ProfilePageTests.can_watch_my_equcation_page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 19h 17m 42s.xml">
+    <history-entry file="ProfilePageTests_can_redirect_to_time_table_page - 2018.10.12 at 22h 09m 14s.xml">
+      <configuration name="ProfilePageTests.can_redirect_to_time_table_page" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProfilePageTests_can_redirect_to_time_table_page - 2018.10.12 at 22h 09m 23s.xml">
+      <configuration name="ProfilePageTests.can_redirect_to_time_table_page" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProfilePageTests_can_redirect_to_time_table_page - 2018.10.12 at 22h 09m 52s.xml">
+      <configuration name="ProfilePageTests.can_redirect_to_time_table_page" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProfilePageTests_can_choose_semester_exam_on_exam_list_page - 2018.10.12 at 22h 10m 12s.xml">
+      <configuration name="ProfilePageTests.can_choose_semester_exam_on_exam_list_page" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 22h 10m 53s.xml">
       <configuration name="ProfilePageTests.can_watch_my_equcation_page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 19h 18m 11s.xml">
-      <configuration name="ProfilePageTests.can_watch_my_equcation_page" configurationId="JUnit" />
+    <history-entry file="ProfilePageTests_can_choose_semester_exam_on_exam_list_page - 2018.10.12 at 22h 11m 04s.xml">
+      <configuration name="ProfilePageTests.can_choose_semester_exam_on_exam_list_page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 19h 19m 14s.xml">
-      <configuration name="ProfilePageTests.can_watch_my_equcation_page" configurationId="JUnit" />
+    <history-entry file="ProfilePageTests_can_select_day_on_my_timetable_page - 2018.10.12 at 22h 11m 25s.xml">
+      <configuration name="ProfilePageTests.can_select_day_on_my_timetable_page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 19h 21m 39s.xml">
-      <configuration name="ProfilePageTests.can_watch_my_equcation_page" configurationId="JUnit" />
+    <history-entry file="ProfilePageTests_can_select_day_on_my_timetable_page - 2018.10.12 at 22h 12m 29s.xml">
+      <configuration name="ProfilePageTests.can_select_day_on_my_timetable_page" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 19h 22m 46s.xml">
-      <configuration name="ProfilePageTests.can_watch_my_equcation_page" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 19h 23m 21s.xml">
-      <configuration name="ProfilePageTests.can_watch_my_equcation_page" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProfilePageTests_can_watch_my_equcation_page - 2018.10.12 at 19h 27m 00s.xml">
-      <configuration name="ProfilePageTests.can_watch_my_equcation_page" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProfilePageTests - 2018.10.12 at 19h 28m 50s.xml">
-      <configuration name="ProfilePageTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProfilePageTests - 2018.10.12 at 19h 30m 32s.xml">
+    <history-entry file="ProfilePageTests - 2018.10.12 at 22h 13m 58s.xml">
       <configuration name="ProfilePageTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45430000" />
+    <option name="totallyTimeSpent" value="49306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="132" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -764,10 +719,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32629356" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44456178" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.100520834" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.17708333" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
@@ -840,15 +795,9 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/Constants.java</url>
-          <line>13</line>
-          <properties field="VALIDATION_ERROR" class="com.codequality.lks.volgatech.utilites.Constants" />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/ProfilePageTests.java</url>
-          <line>68</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
@@ -861,7 +810,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/MyServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1050,9 +998,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/LostPasswordPage.java" />
-    <entry file="file://$PROJECT_DIR$/lw07.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1088,34 +1033,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lw07.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/DriverCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/LoginPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="58" selection-start-line="58" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/DriverCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/ProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="171" column="5" lean-forward="true" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2577#2578#0" expanded="true" />
+            <element signature="e#2664#2665#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3083#3084#0" expanded="true" />
+            <element signature="e#6994#6995#0" expanded="true" />
+            <element signature="e#7071#7072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/Utilites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1124,19 +1098,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/pages/ProfilePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#815#823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/pages/ProfilePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+        <state relative-caret-position="271">
+          <caret line="153" column="57" lean-forward="true" selection-start-line="153" selection-start-column="57" selection-end-line="153" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

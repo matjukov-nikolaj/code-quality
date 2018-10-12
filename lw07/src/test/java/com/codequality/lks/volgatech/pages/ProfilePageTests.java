@@ -2,15 +2,13 @@ package com.codequality.lks.volgatech.pages;
 
 import com.codequality.lks.volgatech.utilites.Constants;
 import com.codequality.lks.volgatech.utilites.DriverCreator;
-import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
+import com.codequality.lks.volgatech.utilites.Utilites;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.concurrent.TimeUnit;
 
 public class ProfilePageTests {
@@ -22,10 +20,10 @@ public class ProfilePageTests {
     public void can_redirect_to_official_volgatech_web_site() {
         this.createProfilePage();
         this.profilePage.officalVolgatechPageClickHandler();
-        this.waitForRedirect();
+        this.waitPage();
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
         this.driver.switchTo().window(tabs.get(1));
-        Assert.assertEquals(Constants.VOLGATECH_MAIN_PAGE, this.driver.getCurrentUrl());
+        Assert.assertEquals(Constants.Page.VOLGATECH_MAIN, this.driver.getCurrentUrl());
         this.driver.quit();
     }
 
@@ -33,8 +31,8 @@ public class ProfilePageTests {
     public void can_redirect_to_profile_usage_instructions() {
         this.createProfilePage();
         this.profilePage.profileUsageInstructionsClickHandler();
-        this.waitForRedirect();
-        Assert.assertEquals(Constants.PROFILE_INSTRUCTION_PAGE, this.driver.getCurrentUrl());
+        this.waitPage();
+        Assert.assertEquals(Constants.Page.PROFILE_INSTRUCTION, this.driver.getCurrentUrl());
         this.driver.quit();
     }
 
@@ -47,11 +45,11 @@ public class ProfilePageTests {
     @Test
     public void can_select_day_on_my_timetable_page() {
         this.redirectToTimeTablePage();
-        Date firstDate = this.getNextWeekFromDate(new Date(System.currentTimeMillis()));
-        this.profilePage.calendarClickHandler(this.getFormattedDate(firstDate));
+        Date firstDate = Utilites.getNextWeekFromDate(new Date(System.currentTimeMillis()));
+        this.profilePage.calendarClickHandler(Utilites.getFormattedDate(firstDate));
         String firstWeekName = this.profilePage.getWeekColorName();
-        Date secondDate = this.getNextWeekFromDate(firstDate);
-        this.profilePage.calendarClickHandler(this.getFormattedDate(secondDate));
+        Date secondDate = Utilites.getNextWeekFromDate(firstDate);
+        this.profilePage.calendarClickHandler(Utilites.getFormattedDate(secondDate));
         String secondWeekName = this.profilePage.getWeekColorName();
         Assert.assertFalse(firstWeekName.equals(secondWeekName));
         this.driver.quit();
@@ -95,7 +93,7 @@ public class ProfilePageTests {
     public void can_watch_my_grants_page() {
         this.createProfilePage();
         this.profilePage.myGrantsClickHandler();
-        Assert.assertEquals(Constants.MY_GRANTS_PAGE, this.driver.getCurrentUrl());
+        Assert.assertEquals(Constants.Page.MY_GRANTS, this.driver.getCurrentUrl());
         this.driver.quit();
     }
 
@@ -103,7 +101,7 @@ public class ProfilePageTests {
     public void can_watch_my_social_docs_page() {
         this.createProfilePage();
         this.profilePage.mySocialDocsClickHandler();
-        Assert.assertEquals(Constants.MY_SOCIAL_DOCS_PAGE, this.driver.getCurrentUrl());
+        Assert.assertEquals(Constants.Page.MY_SOCIAL_DOCS, this.driver.getCurrentUrl());
         this.driver.quit();
     }
 
@@ -119,59 +117,42 @@ public class ProfilePageTests {
     private void redirectToAcademicPerformancePage() {
         this.createProfilePage();
         this.profilePage.myAcademicPerformanceClickHandler();
-        Assert.assertEquals(Constants.MY_ACADEMIC_PERFORMANCE_PAGE, this.driver.getCurrentUrl());
+        Assert.assertEquals(Constants.Page.MY_ACADEMIC_PERFORMANCE, this.driver.getCurrentUrl());
     }
 
     private void redirectToGrantWorksPage() {
         this.createProfilePage();
         this.profilePage.myGrantWorksClickHandler();
-        Assert.assertEquals(Constants.MY_WORKS_PAGE, this.driver.getCurrentUrl());
+        Assert.assertEquals(Constants.Page.MY_WORKS, this.driver.getCurrentUrl());
     }
 
     private void redirectToEducationPage() {
         this.createProfilePage();
         this.profilePage.myEducationClickHandler();
-        Assert.assertEquals(Constants.MY_EDUCATION_PAGE, this.driver.getCurrentUrl());
+        Assert.assertEquals(Constants.Page.MY_EDUCATION, this.driver.getCurrentUrl());
     }
 
     private void redirectToTimeTablePage() {
         this.createProfilePage();
         this.profilePage.myTimeTableClickHandler();
-        Assert.assertEquals(Constants.MY_TIME_TABLE_PAGE, this.driver.getCurrentUrl());
+        Assert.assertEquals(Constants.Page.MY_TIME_TABLE, this.driver.getCurrentUrl());
     }
 
     private void redirectToExamListPage() {
         this.createProfilePage();
         this.profilePage.myExamListClickHandler();
-        Assert.assertEquals(Constants.MY_EXAM_LIST_PAGE, this.driver.getCurrentUrl());
+        Assert.assertEquals(Constants.Page.MY_EXAM_LIST, this.driver.getCurrentUrl());
     }
 
-    private String getFormattedDate(Date date) {
-        Calendar calendar = new GregorianCalendar();
-        calendar.setTime(date);
-        int year = calendar.get(Calendar.YEAR);
-        int month = calendar.get(Calendar.MONTH) + 1;
-        int day = calendar.get(Calendar.DAY_OF_MONTH);
-        return Integer.toString(day) + "." + Integer.toString(month) + "." + Integer.toString(year);
-    }
-
-    private Date getNextWeekFromDate(Date date) {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(date);
-        calendar.add(Calendar.DAY_OF_YEAR, 7);
-        Date increasedDate = calendar.getTime();
-        return increasedDate;
-    }
-
-    private void waitForRedirect() {
+    private void waitPage() {
         this.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     private void createProfilePage() {
-        DriverCreator driverCreator = new DriverCreator(Constants.LOGIN_URL);
+        DriverCreator driverCreator = new DriverCreator(Constants.Page.LOGIN);
         this.driver = driverCreator.getDriver();
         LoginPage loginPage = new LoginPage(this.driver);
-        loginPage.loginUser(Constants.CORRECT_USERNAME, Constants.CORRECT_PASS);
+        loginPage.loginUser(Constants.UserInfo.CORRECT_USERNAME, Constants.UserInfo.CORRECT_PASS);
         this.profilePage = new ProfilePage(driver);
     }
 

@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import java.util.concurrent.TimeUnit;
 
 public class LoginPageTests {
-    private static final String instanceUrl = "https://lks.volgatech.net/Account/Login?ReturnUrl=%2f";
 
     private WebDriver driver;
     private LoginPage loginPage;
@@ -17,7 +16,7 @@ public class LoginPageTests {
     @Test
     public void user_login_with_correct_username_and_password() {
         this.createWebDriver();
-        loginPage.loginUser(Constants.CORRECT_USERNAME, Constants.CORRECT_PASS);
+        loginPage.loginUser(Constants.UserInfo.CORRECT_USERNAME, Constants.UserInfo.CORRECT_PASS);
         this.checkUser();
         this.driver.quit();
     }
@@ -25,25 +24,25 @@ public class LoginPageTests {
     @Test
     public void user_login_with_correct_username_and_password_and_logout() {
         this.createWebDriver();
-        loginPage.loginUser(Constants.CORRECT_USERNAME, Constants.CORRECT_PASS);
+        loginPage.loginUser(Constants.UserInfo.CORRECT_USERNAME, Constants.UserInfo.CORRECT_PASS);
         this.checkUser();
         ProfilePage profile = new ProfilePage(driver);
         profile.logout();
-        Assert.assertEquals(driver.getCurrentUrl(), instanceUrl);
+        Assert.assertEquals(driver.getCurrentUrl(), Constants.Page.LOGIN);
         this.driver.quit();
     }
 
     @Test
     public void user_login_with_incorrect_username() {
-        this.loginWithIncorrectData(Constants.INCORRECT_USERNAME, Constants.CORRECT_PASS);
-        Assert.assertEquals(Constants.VALIDATION_ERROR, loginPage.getValidationError());
+        this.loginWithIncorrectData(Constants.UserInfo.INCORRECT_USERNAME, Constants.UserInfo.CORRECT_PASS);
+        Assert.assertEquals(Constants.UserInfo.VALIDATION_ERROR, loginPage.getValidationError());
         this.driver.quit();
     }
 
     @Test
     public void user_login_with_incorrect_password() {
-        this.loginWithIncorrectData(Constants.CORRECT_USERNAME, Constants.INCORRECT_PASS);
-        Assert.assertEquals(Constants.VALIDATION_ERROR, loginPage.getValidationError());
+        this.loginWithIncorrectData(Constants.UserInfo.CORRECT_USERNAME, Constants.UserInfo.INCORRECT_PASS);
+        Assert.assertEquals(Constants.UserInfo.VALIDATION_ERROR, loginPage.getValidationError());
         this.driver.quit();
     }
 
@@ -51,28 +50,28 @@ public class LoginPageTests {
     public void can_redirect_to_page_about_recover_instruction_login_and_password() {
         this.createWebDriver();
         this.loginPage.profileRecoveryInstructionsClickHandler();
-        this.waitForRedirect();
-        Assert.assertEquals(Constants.RECOVER_INSTRUCTIONS_PAGE, this.driver.getCurrentUrl());
+        this.waitPage();
+        Assert.assertEquals(Constants.Page.RECOVER_INSTRUCTIONS, this.driver.getCurrentUrl());
         this.driver.quit();
     }
 
-    private void waitForRedirect() {
+    private void waitPage() {
         this.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     private void loginWithIncorrectData(String username, String pass) {
         this.createWebDriver();
         loginPage.loginUser(username, pass);
-        this.waitForRedirect();
+        this.waitPage();
     }
 
     private void checkUser() {
         ProfilePage profile = new ProfilePage(driver);
-        Assert.assertEquals(Constants.EXPECTED_USER_FULL_NAME, profile.getUserFullName());
+        Assert.assertEquals(Constants.UserInfo.EXPECTED_USER_FULL_NAME, profile.getUserFullName());
     }
 
     private void createWebDriver() {
-        DriverCreator driverCreator = new DriverCreator(instanceUrl);
+        DriverCreator driverCreator = new DriverCreator(Constants.Page.LOGIN);
         this.driver = driverCreator.getDriver();
         this.loginPage = new LoginPage(driver);
     }

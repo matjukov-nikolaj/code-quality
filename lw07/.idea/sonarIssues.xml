@@ -98,6 +98,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/codequality/lks/volgatech/utilites/Utilites.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/codequality/servlets/MyServlet.java">
           <value>
             <set />
@@ -189,6 +194,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/utilites/SignIn.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/codequality/lks/volgatech/utilites/Utilites.java">
           <value>
             <set />
           </value>
