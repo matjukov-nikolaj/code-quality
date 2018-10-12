@@ -49,14 +49,101 @@ public class ProfilePageTests {
         this.redirectToTimeTablePage();
         Date firstDate = this.getNextWeekFromDate(new Date(System.currentTimeMillis()));
         this.profilePage.calendarClickHandler(this.getFormattedDate(firstDate));
-        this.waitEvent();
         String firstWeekName = this.profilePage.getWeekColorName();
         Date secondDate = this.getNextWeekFromDate(firstDate);
         this.profilePage.calendarClickHandler(this.getFormattedDate(secondDate));
-        this.waitEvent();
         String secondWeekName = this.profilePage.getWeekColorName();
         Assert.assertFalse(firstWeekName.equals(secondWeekName));
         this.driver.quit();
+    }
+
+    @Test
+    public void can_choose_semester_exam_on_exam_list_page() {
+        this.redirectToExamListPage();
+        this.сompareСurrentSemesterChoices();
+        this.driver.quit();
+    }
+
+    @Test
+    public void can_watch_my_equcation_page() {
+        this.redirectToEducationPage();
+        this.profilePage.studySheduleButtonClickHandler();
+        Assert.assertTrue(this.profilePage.isStudySheduleTablesOpen());
+        this.profilePage.curriculumButtonClickHandler();
+        Assert.assertTrue(this.profilePage.isCurriculumTableOpen());
+        this.driver.quit();
+    }
+
+    @Test
+    public void can_watch_my_grant_works() {
+        this.redirectToGrantWorksPage();
+        String displayStyle = this.profilePage.getTableWithPostAchievementsDisplayStyle();
+        this.profilePage.showPastAchievementsClickHandler();
+        String currDisplayStyle = this.profilePage.getTableWithPostAchievementsDisplayStyle();
+        Assert.assertFalse(currDisplayStyle.equals(displayStyle));
+        this.driver.quit();
+    }
+
+    @Test
+    public void can_watch_my_academic_performance() {
+        this.redirectToAcademicPerformancePage();
+        this.сompareСurrentSemesterChoices();
+        this.driver.quit();
+    }
+
+    @Test
+    public void can_watch_my_grants_page() {
+        this.createProfilePage();
+        this.profilePage.myGrantsClickHandler();
+        Assert.assertEquals(Constants.MY_GRANTS_PAGE, this.driver.getCurrentUrl());
+        this.driver.quit();
+    }
+
+    @Test
+    public void can_watch_my_social_docs_page() {
+        this.createProfilePage();
+        this.profilePage.mySocialDocsClickHandler();
+        Assert.assertEquals(Constants.MY_SOCIAL_DOCS_PAGE, this.driver.getCurrentUrl());
+        this.driver.quit();
+    }
+
+
+    private void сompareСurrentSemesterChoices() {
+        String currentSemester = this.profilePage.getCurrentSemester();
+        this.profilePage.semesterListClickHandler();
+        this.profilePage.previousSemesterClickHandler();
+        String previousSemester = this.profilePage.getCurrentSemester();
+        Assert.assertFalse(currentSemester.equals(previousSemester));
+    }
+
+    private void redirectToAcademicPerformancePage() {
+        this.createProfilePage();
+        this.profilePage.myAcademicPerformanceClickHandler();
+        Assert.assertEquals(Constants.MY_ACADEMIC_PERFORMANCE_PAGE, this.driver.getCurrentUrl());
+    }
+
+    private void redirectToGrantWorksPage() {
+        this.createProfilePage();
+        this.profilePage.myGrantWorksClickHandler();
+        Assert.assertEquals(Constants.MY_WORKS_PAGE, this.driver.getCurrentUrl());
+    }
+
+    private void redirectToEducationPage() {
+        this.createProfilePage();
+        this.profilePage.myEducationClickHandler();
+        Assert.assertEquals(Constants.MY_EDUCATION_PAGE, this.driver.getCurrentUrl());
+    }
+
+    private void redirectToTimeTablePage() {
+        this.createProfilePage();
+        this.profilePage.myTimeTableClickHandler();
+        Assert.assertEquals(Constants.MY_TIME_TABLE_PAGE, this.driver.getCurrentUrl());
+    }
+
+    private void redirectToExamListPage() {
+        this.createProfilePage();
+        this.profilePage.myExamListClickHandler();
+        Assert.assertEquals(Constants.MY_EXAM_LIST_PAGE, this.driver.getCurrentUrl());
     }
 
     private String getFormattedDate(Date date) {
@@ -74,16 +161,6 @@ public class ProfilePageTests {
         calendar.add(Calendar.DAY_OF_YEAR, 7);
         Date increasedDate = calendar.getTime();
         return increasedDate;
-    }
-
-    private void redirectToTimeTablePage() {
-        this.createProfilePage();
-        this.profilePage.myTimeTableClickHandler();
-        Assert.assertEquals(Constants.MY_TIME_TABLE_PAGE, this.driver.getCurrentUrl());
-    }
-
-    private void waitEvent() {
-        this.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     }
 
     private void waitForRedirect() {

@@ -24,6 +24,5 @@
     <p></p>
     <input type="submit" value="Submit">
 </form>
-</form>
 </body>
 </html>
